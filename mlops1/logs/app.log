@@ -1,0 +1,147 @@
+2025-02-24 22:27:44.162 | INFO     | __main__:start_log_server:24 - Logging server started on port 5555
+2025-02-24 22:28:12.885 | INFO     | __main__:start_log_server:34 - API is running successfully
+2025-02-24 22:37:35.092 | INFO     | __main__:start_log_server:24 - Logging server started on port 5555
+2025-02-24 22:40:29.022 | INFO     | __main__:start_log_server:34 - API is running successfully
+2025-02-24 22:41:13.512 | INFO     | __main__:start_log_server:24 - Logging server started on port 5555
+2025-02-24 22:44:23.036 | INFO     | __main__:start_log_server:24 - Logging server started on port 5555
+2025-02-24 22:45:56.041 | INFO     | __main__:start_log_server:24 - Logging server started on port 5555
+2025-02-24 22:51:26.906 | INFO     | __main__:start_log_server:24 - Logging server started on port 5555
+2025-02-24 22:52:56.491 | INFO     | __main__:start_log_server:24 - Logging server started on port 5555
+2025-02-24 22:55:18.018 | INFO     | __main__:start_log_server:34 - API is running successfully
+2025-02-24 22:55:37.197 | INFO     | __main__:start_log_server:34 - Received command: open browser
+2025-02-24 22:55:37.197 | INFO     | __main__:start_log_server:34 - Matched command 'open browser' to category 'application_control', action 'open_browser'
+2025-02-24 22:55:37.197 | INFO     | __main__:start_log_server:34 - Executing open_browser under application_control
+2025-02-24 22:55:37.197 | INFO     | __main__:start_log_server:34 - Starting Playwright and launching browser...
+2025-02-24 22:55:37.920 | INFO     | __main__:start_log_server:34 - Browser opened successfully.
+2025-02-24 22:55:50.468 | INFO     | __main__:start_log_server:34 - Received command: open browser
+2025-02-24 22:55:50.468 | INFO     | __main__:start_log_server:34 - Matched command 'open browser' to category 'application_control', action 'open_browser'
+2025-02-24 22:55:50.468 | INFO     | __main__:start_log_server:34 - Executing open_browser under application_control
+2025-02-24 22:55:55.044 | INFO     | __main__:start_log_server:34 - Received command: close browser
+2025-02-24 22:55:55.044 | INFO     | __main__:start_log_server:34 - Matched command 'close browser' to category 'application_control', action 'close_browser'
+2025-02-24 22:55:55.044 | INFO     | __main__:start_log_server:34 - Executing close_browser under application_control
+2025-02-24 22:55:56.381 | INFO     | __main__:start_log_server:34 - Browser closed successfully.
+2025-02-24 22:55:56.762 | INFO     | __main__:start_log_server:34 - Received command: open browser
+2025-02-24 22:55:56.762 | INFO     | __main__:start_log_server:34 - Matched command 'open browser' to category 'application_control', action 'open_browser'
+2025-02-24 22:55:56.762 | INFO     | __main__:start_log_server:34 - Executing open_browser under application_control
+2025-02-24 22:55:56.762 | INFO     | __main__:start_log_server:34 - Starting Playwright and launching browser...
+2025-02-24 22:56:01.590 | INFO     | __main__:start_log_server:34 - Browser opened successfully.
+2025-02-24 22:56:02.446 | INFO     | __main__:start_log_server:34 - Received command: set brightness to 50
+2025-02-24 22:56:02.446 | INFO     | __main__:start_log_server:34 - Matched command 'set brightness to 50' to category 'hardware_control', action 'set_brightness'
+2025-02-24 22:56:02.446 | INFO     | __main__:start_log_server:34 - Executing set_brightness under hardware_control
+2025-02-24 22:56:02.446 | INFO     | __main__:start_log_server:34 - Received hardware command: set_brightness:50
+2025-02-24 22:56:02.458 | INFO     | __main__:start_log_server:34 - Brightness set to 50%.
+2025-02-24 22:56:03.351 | INFO     | __main__:start_log_server:34 - Received command: full brightness
+2025-02-24 22:56:03.351 | INFO     | __main__:start_log_server:34 - Matched command 'full brightness' to category 'hardware_control', action 'full_brightness'
+2025-02-24 22:56:03.351 | INFO     | __main__:start_log_server:34 - Executing full_brightness under hardware_control
+2025-02-24 22:56:03.351 | INFO     | __main__:start_log_server:34 - Received hardware command: full brightness
+2025-02-24 22:56:04.612 | INFO     | __main__:start_log_server:34 - Brightness set to 100%.
+2025-02-24 22:56:04.663 | INFO     | __main__:start_log_server:34 - Received command: decrease brightness
+2025-02-24 22:56:04.663 | INFO     | __main__:start_log_server:34 - Matched command 'decrease brightness' to category 'hardware_control', action 'decrease_brightness'
+2025-02-24 22:56:04.664 | INFO     | __main__:start_log_server:34 - Executing decrease_brightness under hardware_control
+2025-02-24 22:56:04.664 | INFO     | __main__:start_log_server:34 - Received hardware command: decrease brightness
+2025-02-24 22:56:05.894 | INFO     | __main__:start_log_server:34 - Brightness decreased to 20%.
+2025-02-24 22:56:05.927 | INFO     | __main__:start_log_server:34 - Received command: lock screen
+2025-02-24 22:56:05.927 | INFO     | __main__:start_log_server:34 - Matched command 'lock screen' to category 'hardware_control', action 'lock_screen'
+2025-02-24 22:56:05.927 | INFO     | __main__:start_log_server:34 - Executing lock_screen under hardware_control
+2025-02-24 22:56:05.927 | INFO     | __main__:start_log_server:34 - Received hardware command: lock screen
+2025-02-24 22:56:06.062 | INFO     | __main__:start_log_server:34 - Screen locked.
+2025-02-24 22:57:50.505 | INFO     | __main__:start_log_server:34 - API is running successfully
+2025-02-24 22:57:57.571 | INFO     | __main__:start_log_server:34 - Received command: open browser
+2025-02-24 22:57:57.571 | INFO     | __main__:start_log_server:34 - Matched command 'open browser' to category 'application_control', action 'open_browser'
+2025-02-24 22:57:57.571 | INFO     | __main__:start_log_server:34 - Executing open_browser under application_control
+2025-02-24 22:57:57.571 | INFO     | __main__:start_log_server:34 - Starting Playwright and launching browser...
+2025-02-24 22:57:58.310 | INFO     | __main__:start_log_server:34 - Browser opened successfully.
+2025-02-24 22:58:00.696 | INFO     | __main__:start_log_server:34 - Received command: close browser
+2025-02-24 22:58:00.696 | INFO     | __main__:start_log_server:34 - Matched command 'close browser' to category 'application_control', action 'close_browser'
+2025-02-24 22:58:00.697 | INFO     | __main__:start_log_server:34 - Executing close_browser under application_control
+2025-02-24 22:58:04.792 | INFO     | __main__:start_log_server:34 - Browser closed successfully.
+2025-02-24 22:58:04.810 | INFO     | __main__:start_log_server:34 - Received command: new tab
+2025-02-24 22:58:04.810 | INFO     | __main__:start_log_server:34 - Matched command 'new tab' to category 'application_control', action 'open_new_tab'
+2025-02-24 22:58:04.810 | INFO     | __main__:start_log_server:34 - Executing open_new_tab under application_control
+2025-02-24 22:58:04.861 | INFO     | __main__:start_log_server:34 - Received command: open browser
+2025-02-24 22:58:04.861 | INFO     | __main__:start_log_server:34 - Matched command 'open browser' to category 'application_control', action 'open_browser'
+2025-02-24 22:58:04.861 | INFO     | __main__:start_log_server:34 - Executing open_browser under application_control
+2025-02-24 22:58:04.861 | INFO     | __main__:start_log_server:34 - Starting Playwright and launching browser...
+2025-02-24 22:58:07.769 | INFO     | __main__:start_log_server:34 - Browser opened successfully.
+2025-02-24 22:58:08.452 | INFO     | __main__:start_log_server:34 - Received command: new tab
+2025-02-24 22:58:08.452 | INFO     | __main__:start_log_server:34 - Matched command 'new tab' to category 'application_control', action 'open_new_tab'
+2025-02-24 22:58:08.452 | INFO     | __main__:start_log_server:34 - Executing open_new_tab under application_control
+2025-02-24 22:58:12.002 | INFO     | __main__:start_log_server:34 - New tab opened successfully.
+2025-02-24 22:58:12.038 | INFO     | __main__:start_log_server:34 - Received command: close tab
+2025-02-24 22:58:12.038 | INFO     | __main__:start_log_server:34 - Matched command 'close tab' to category 'application_control', action 'close_tab'
+2025-02-24 22:58:12.038 | INFO     | __main__:start_log_server:34 - Executing close_tab under application_control
+2025-02-24 22:58:13.277 | INFO     | __main__:start_log_server:34 - Tab closed successfully.
+2025-02-24 22:58:13.300 | INFO     | __main__:start_log_server:34 - Received command: refresh tab
+2025-02-24 22:58:13.300 | INFO     | __main__:start_log_server:34 - Matched command 'refresh tab' to category 'application_control', action 'refresh_tab'
+2025-02-24 22:58:13.300 | INFO     | __main__:start_log_server:34 - Executing refresh_tab under application_control
+2025-02-24 22:58:13.351 | INFO     | __main__:start_log_server:34 - Received command: close browser
+2025-02-24 22:58:13.351 | INFO     | __main__:start_log_server:34 - Matched command 'close browser' to category 'application_control', action 'close_browser'
+2025-02-24 22:58:13.351 | INFO     | __main__:start_log_server:34 - Executing close_browser under application_control
+2025-02-24 22:58:14.645 | INFO     | __main__:start_log_server:34 - Browser closed successfully.
+2025-02-24 22:58:17.380 | INFO     | __main__:start_log_server:34 - Received command: search google for python
+2025-02-24 22:58:17.380 | INFO     | __main__:start_log_server:34 - Matched command 'search google for python' to category 'rpa_control', action 'search_google'
+2025-02-24 22:58:17.381 | INFO     | __main__:start_log_server:34 - Executing search_google under rpa_control
+2025-02-24 22:58:17.381 | INFO     | __main__:start_log_server:34 - Executing RPA action: search_google
+2025-02-24 22:58:17.381 | INFO     | __main__:start_log_server:34 - Searching Google for: python
+2025-02-24 22:58:17.381 | INFO     | __main__:start_log_server:34 - Starting Playwright and launching browser...
+2025-02-24 22:58:19.076 | INFO     | __main__:start_log_server:34 - Browser opened successfully.
+2025-02-24 22:58:19.198 | INFO     | __main__:start_log_server:34 - Searching Google for: python
+2025-02-24 22:58:20.834 | WARNING  | __main__:start_log_server:36 - No search results found for 'python'.
+2025-02-24 22:58:22.735 | INFO     | __main__:start_log_server:34 - Received command: amazon search for laptop
+2025-02-24 22:58:22.735 | INFO     | __main__:start_log_server:34 - Matched command 'amazon search for laptop' to category 'rpa_control', action 'amazon_search'
+2025-02-24 22:58:22.735 | INFO     | __main__:start_log_server:34 - Executing amazon_search under rpa_control
+2025-02-24 22:58:22.735 | INFO     | __main__:start_log_server:34 - Executing RPA action: amazon_search
+2025-02-24 22:58:22.735 | INFO     | __main__:start_log_server:34 - Searching Amazon for: laptop
+2025-02-24 22:58:22.789 | INFO     | __main__:start_log_server:34 - Searching Amazon for 'laptop'
+2025-02-24 22:58:27.433 | INFO     | __main__:start_log_server:34 - Received command: search job for software engineer
+2025-02-24 22:58:27.433 | INFO     | __main__:start_log_server:34 - Matched command 'search job for software engineer' to category 'rpa_control', action 'search_job'
+2025-02-24 22:58:27.433 | INFO     | __main__:start_log_server:34 - Executing search_job under rpa_control
+2025-02-24 22:58:27.433 | INFO     | __main__:start_log_server:34 - Executing RPA action: search_job
+2025-02-24 22:58:27.433 | INFO     | __main__:start_log_server:34 - Searching jobs for: software engineer
+2025-02-24 22:58:27.488 | INFO     | __main__:start_log_server:34 - Searching Indeed for jobs: software engineer
+2025-02-24 22:58:29.545 | WARNING  | __main__:start_log_server:36 - No job search results found for 'software engineer'.
+2025-02-24 22:58:30.461 | INFO     | __main__:start_log_server:34 - Received command: login to moodle
+2025-02-24 22:58:30.461 | INFO     | __main__:start_log_server:34 - Matched command 'login to moodle' to category 'rpa_control', action 'login_moodle'
+2025-02-24 22:58:30.461 | INFO     | __main__:start_log_server:34 - Executing login_moodle under rpa_control
+2025-02-24 22:58:30.461 | INFO     | __main__:start_log_server:34 - Executing RPA action: login_moodle
+2025-02-24 22:58:30.461 | INFO     | __main__:start_log_server:34 - Logging into Moodle
+2025-02-24 22:58:30.506 | INFO     | __main__:start_log_server:34 - Opening Moodle login page...
+2025-02-24 22:58:33.619 | INFO     | __main__:start_log_server:34 - Received command: set brightness to 50
+2025-02-24 22:58:33.619 | INFO     | __main__:start_log_server:34 - Matched command 'set brightness to 50' to category 'hardware_control', action 'set_brightness'
+2025-02-24 22:58:33.619 | INFO     | __main__:start_log_server:34 - Executing set_brightness under hardware_control
+2025-02-24 22:58:33.619 | INFO     | __main__:start_log_server:34 - Received hardware command: set_brightness:50
+2025-02-24 22:58:33.631 | INFO     | __main__:start_log_server:34 - Brightness set to 50%.
+2025-02-24 22:58:34.474 | INFO     | __main__:start_log_server:34 - Received command: full brightness
+2025-02-24 22:58:34.474 | INFO     | __main__:start_log_server:34 - Matched command 'full brightness' to category 'hardware_control', action 'full_brightness'
+2025-02-24 22:58:34.474 | INFO     | __main__:start_log_server:34 - Executing full_brightness under hardware_control
+2025-02-24 22:58:34.474 | INFO     | __main__:start_log_server:34 - Received hardware command: full brightness
+2025-02-24 22:58:35.715 | INFO     | __main__:start_log_server:34 - Brightness set to 100%.
+2025-02-24 22:58:35.737 | INFO     | __main__:start_log_server:34 - Received command: decrease brightness
+2025-02-24 22:58:35.737 | INFO     | __main__:start_log_server:34 - Matched command 'decrease brightness' to category 'hardware_control', action 'decrease_brightness'
+2025-02-24 22:58:35.737 | INFO     | __main__:start_log_server:34 - Executing decrease_brightness under hardware_control
+2025-02-24 22:58:35.737 | INFO     | __main__:start_log_server:34 - Received hardware command: decrease brightness
+2025-02-24 22:58:36.988 | INFO     | __main__:start_log_server:34 - Brightness decreased to 20%.
+2025-02-24 22:58:37.002 | INFO     | __main__:start_log_server:34 - Received command: take screenshot
+2025-02-24 22:58:37.002 | INFO     | __main__:start_log_server:34 - Matched command 'take screenshot' to category 'hardware_control', action 'take_screenshot'
+2025-02-24 22:58:37.002 | INFO     | __main__:start_log_server:34 - Executing take_screenshot under hardware_control
+2025-02-24 22:58:37.002 | INFO     | __main__:start_log_server:34 - Received hardware command: take screenshot
+2025-02-24 22:58:42.369 | INFO     | __main__:start_log_server:34 - Screenshot saved at /home/sunny/Downloads/mlops1/screenshot.png
+2025-02-24 22:58:42.403 | INFO     | __main__:start_log_server:34 - Received command: move to top left
+2025-02-24 22:58:42.403 | INFO     | __main__:start_log_server:34 - Matched command 'move to top left' to category 'hardware_control', action 'move_mouse'
+2025-02-24 22:58:42.404 | INFO     | __main__:start_log_server:34 - Executing move_mouse under hardware_control
+2025-02-24 22:58:42.404 | INFO     | __main__:start_log_server:34 - Received hardware command: move to top left
+2025-02-24 22:58:43.734 | INFO     | __main__:start_log_server:34 - Mouse moved to the top left corner.
+2025-02-24 22:58:45.325 | INFO     | __main__:start_log_server:34 - Received command: caps lock on
+2025-02-24 22:58:45.325 | INFO     | __main__:start_log_server:34 - Matched command 'caps lock on' to category 'hardware_control', action 'caps_lock_on'
+2025-02-24 22:58:45.325 | INFO     | __main__:start_log_server:34 - Executing caps_lock_on under hardware_control
+2025-02-24 22:58:45.325 | INFO     | __main__:start_log_server:34 - Received hardware command: caps lock on
+2025-02-24 22:58:45.328 | INFO     | __main__:start_log_server:34 - Checked Caps Lock status: OFF
+2025-02-24 22:58:45.347 | INFO     | __main__:start_log_server:34 - Caps Lock toggled.
+2025-02-24 22:58:46.596 | INFO     | __main__:start_log_server:34 - Caps Lock turned on.
+2025-02-24 22:58:46.688 | INFO     | __main__:start_log_server:34 - Received command: caps lock off
+2025-02-24 22:58:46.688 | INFO     | __main__:start_log_server:34 - Matched command 'caps lock off' to category 'hardware_control', action 'caps_lock_off'
+2025-02-24 22:58:46.689 | INFO     | __main__:start_log_server:34 - Executing caps_lock_off under hardware_control
+2025-02-24 22:58:46.689 | INFO     | __main__:start_log_server:34 - Received hardware command: caps lock off
+2025-02-24 22:58:46.692 | INFO     | __main__:start_log_server:34 - Checked Caps Lock status: ON
+2025-02-24 22:58:46.708 | INFO     | __main__:start_log_server:34 - Caps Lock toggled.
+2025-02-24 22:58:47.958 | INFO     | __main__:start_log_server:34 - Caps Lock turned off.

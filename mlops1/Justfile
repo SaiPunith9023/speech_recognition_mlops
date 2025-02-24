@@ -1,0 +1,28 @@
+# .PHONY: setup run log_server api voice lint test
+
+
+
+setup:
+	python3 -m venv .venv
+	. .venv/bin/activate && pip install --upgrade pip && pip install -r requirements.txt
+
+run:
+    .venv/bin/python main/log_server.py & sleep 2 && \
+    .venv/bin/uvicorn main.api:app --host 127.0.0.1 --port 8000 --reload --loop asyncio & sleep 2 && \
+    .venv/bin/python main/gui.py && wait
+
+
+log_server:
+	source .venv/bin/activate && python main/log_server.py
+
+api:
+	source .venv/bin/activate && uvicorn main.api:app --host 0.0.0.0 --port 8000 --workers 4
+
+voice:
+	source .venv/bin/activate && python main/gui.py
+
+lint:
+	source .venv/bin/activate && ruff check .
+
+test:
+	source .venv/bin/activate && pytest tests/

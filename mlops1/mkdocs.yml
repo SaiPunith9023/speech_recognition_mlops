@@ -1,0 +1,9 @@
+site_name: "Voice Command System"
+theme:
+  name: "material"
+
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
+  - Features: features.md
+  - Experience: experience.md

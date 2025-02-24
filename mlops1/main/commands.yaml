@@ -1,0 +1,43 @@
+application_control:
+  open_browser:
+    - "open browser"
+    - "start browser"
+  close_browser:
+    - "close browser"
+    - "terminate browser"
+  open_new_tab:
+    - "new tab"
+  close_tab:
+  - "close tab"
+  refresh_tab:
+    - "refresh tab"
+
+hardware_control:
+  caps_lock_on:
+    - "caps lock on"
+  caps_lock_off:
+    - "caps lock off"
+  take_screenshot:
+    - "take screenshot"
+    - "take a photo"
+  move_mouse:
+    - "move to top left"
+  full_brightness:
+    - "full brightness"
+  decrease_brightness:
+    - "decrease brightness"
+  set_brightness:
+    - "set brightness to"
+  lock_screen:
+    - "lock screen"
+
+rpa_control:
+  search_google:
+    - "search google for"
+  login_moodle:
+    - "login to moodle"
+  search_job:
+    - "search job for"
+  amazon_search:
+    - "amazon search for"
+

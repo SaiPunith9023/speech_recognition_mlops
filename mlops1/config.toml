@@ -1,0 +1,12 @@
+[logging]
+log_file_name = "logs/app.log"
+min_log_level = "INFO"
+log_rotation = "00:00"  # Rotate log file daily at midnight
+log_compression = "zip" # Compress old log files
+log_server_port = 5555  # Port for the unified logging server
+
+[server]
+host = "127.0.0.1"  # Set server to run on localhost
+port_no = 8000
+number_of_workers = 4
+timeout_keep_alive = 300
