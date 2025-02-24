@@ -12,17 +12,3 @@ run:
     .venv/bin/python main/gui.py && wait
 
 
-log_server:
-	source .venv/bin/activate && python main/log_server.py
-
-api:
-	source .venv/bin/activate && uvicorn main.api:app --host 0.0.0.0 --port 8000 --workers 4
-
-voice:
-	source .venv/bin/activate && python main/gui.py
-
-lint:
-	source .venv/bin/activate && ruff check .
-
-test:
-	source .venv/bin/activate && pytest tests/
